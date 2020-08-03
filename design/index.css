@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster{
+    margin:20px 0;
+    width:1300px;
+    height:700px;
+    border: 1px solid gray;
+    background-color:white;
+    box-shadow: 10px 10px 10px wheat;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.quote-align{
+    flex: 1;
+    border: 1px solid black;
+}
+
+.img-align{
+    flex:1;
+    border: 1px solid black;
+
+}
+
+.curve-bg{
+    margin-top: 33.8rem;
+    bottom:0;
+    left:0;
+}
+
+.pro-pic{
+    position:absolute;
+    padding:4rem 0 0 4rem ;
+    z-index: 1;
+    border: 1px solid rgb(235, 48, 48);
+}
+
+.pattern-pg{
+    position:absolute;
+    z-index: -1;
+}
