@@ -1,51 +1,101 @@
 *{
     box-sizing: border-box;
-}
+} 
 
 body{
 
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color:  hsl(240, 18%, 77%);
+    flex-direction: column;
 }
-
 .poster{
-    margin:20px 0;
-    width:1300px;
-    height:700px;
-    border: 1px solid gray;
-    background-color:white;
-    box-shadow: 10px 10px 10px wheat;
+   background-color: white;
+    margin:20px 20px;
+    width:1500px;
+    height:800px;
+    box-shadow: 0px 7px 10px #35383aa6;
+    padding: 3rem;
     display: flex;
     flex-direction: row;
 
 }
 
+
 .quote-align{
     flex: 1;
-    border: 1px solid black;
 }
 
 .img-align{
     flex:1;
-    border: 1px solid black;
 
 }
 
 .curve-bg{
-    margin-top: 33.8rem;
+    margin-top: 34rem;
     bottom:0;
     left:0;
 }
 
 .pro-pic{
+   
     position:absolute;
     padding:4rem 0 0 4rem ;
     z-index: 1;
-    border: 1px solid rgb(235, 48, 48);
+    box-shadow: 6px 7px 10px #35383aa6;
 }
 
 .pattern-pg{
     position:absolute;
     z-index: -1;
+}
+
+.inner-quote{
+    position: absolute;
+    padding: 10rem;
+    z-index: 2;
+}
+.inner-quote>img{
+   
+    position: absolute;
+    padding-left: 120px;
+    z-index: -2;
+   
+}
+.inner-quote>p{
+    position: absolute;
+    margin:0 0 0 2rem;
+    padding: 4.7rem 1rem 0 ;
+    z-index: 1;
+    width: 33rem;
+    font-size: 27px;
+    text-align:left;
+    font-weight: 500;
+}
+
+.inner-quote>span{
+    font-weight: 700;
+}
+
+.designation{
+    font-weight:50;
+    font-size: 1rem;
+    color: rgb(160, 157, 153);
+}
+
+.slider{
+    position: absolute;
+    z-index: 2;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 36.5rem 0 0 9rem;
+    box-shadow: 0px 7px 10px #35383aa6;
+}
+
+
+.slider>img{
+    padding: 10px 15px;
 }
